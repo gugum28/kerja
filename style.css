@@ -1,0 +1,42 @@
+    center {
+        text-align: center;
+    }
+
+    .button {
+        background-color: yellow;
+        color: red;
+        display: inline-block;
+        padding: 20px 35px;
+        text-align: center;
+        text-decoration: none !important;
+        cursor: pointer;
+        font-size: 32px;
+        margin: 50px;
+    }
+
+    .button_pindah {
+        background-color: yellow;
+        color: red;
+        display: inline-block;
+        padding: 20px 35px;
+        text-align: center;
+        text-decoration: none !important;
+        cursor: pointer;
+        font-size: 32px;
+        margin: 50px;
+    }
+
+    img {
+        width: 550px;
+        height: 440px;
+    }
+
+    #ti-2 {
+        display: none;
+        float: left;
+    }
+
+    #ti-3 {
+        display: none;
+        float: right;
+    }

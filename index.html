@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <center>
+        <h1>Apakah Anda puas dengan gajih saat ini?</h1>
+        <a href="kembalikerja.html" class="button">Iya</a>
+        <a href="#" class="button_pindah" id="ti-1">Tidak</a>
+        <a href="#" class="button_pindah" id="ti-2">Tidak</a>
+        <a href="#" class="button_pindah" id="ti-3">Tidak</a>
+    </center>
+
+    <script>
+        const tipertama = document.querySelector("#ti-1");
+        const tikedua = document.querySelector("#ti-2");
+        const tiketiga = document.querySelector("#ti-3");
+        const yaya = document.querySelector("#ya");
+        const good = document.querySelector(".good");
+        const btnsatu = document.querySelector(".btn-1");
+        tipertama.addEventListener("mouseover", () => {
+            tipertama.style.display = 'none';
+            tikedua.style.display = "inline-block";
+        });
+        tikedua.addEventListener("mouseover", () => {
+            console.log('ada');
+            tikedua.style.display = 'none';
+            tiketiga.style.display = "block";
+        });
+        tiketiga.addEventListener("mouseover", () => {
+            console.log('ada');
+            tiketiga.style.display = 'none';
+            tipertama.style.display = "block";
+        });
+        yaya.addEventListener("click", () => {
+
+
+
+
+        })
+    </script>
+
+</body>
+
+</html>
